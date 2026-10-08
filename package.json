@@ -1,0 +1,41 @@
+{
+  "name": "@wuchubuzai/sequential-thinking-httpsse",
+  "version": "0.0.1",
+  "description": "MCP server for sequential thinking and problem solving",
+  "author": "CR7的绝对粉",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "sequential-thinking-httpsse-mcpserver": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.10.2",
+    "@types/node-fetch": "^2.6.12",
+    "chalk": "^5.3.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "yargs": "^17.7.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "@types/yargs": "^17.0.32",
+    "shx": "^0.3.4",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
