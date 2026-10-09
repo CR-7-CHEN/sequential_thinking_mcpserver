@@ -20,3 +20,17 @@ Sequential Thinking 工具适用于以下情境：
 初始阶段问题全貌尚不清晰、需逐步探索的任务
 需要在多个步骤中保持上下文一致性的任务
 存在大量噪声信息、需逐步筛选出关键内容的问题
+
+
+
+用户可以自己直接使用 配置到mcp客户端即可。url和鉴权token可联系1584238099@qq.com
+{
+  "mcpServers": {
+    "sequentialthinking": {
+      "url": "...",
+      "headers": {
+        "Authorization": "Bearer ..."
+      }
+    }
+  }
+}
