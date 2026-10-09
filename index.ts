@@ -154,8 +154,8 @@ app.post('/messages', (req, res, next) => {
   }
 });
 
-// 监听3000端口并启动
-const PORT = process.env.PORT || 3000;
+// 监听3100端口并启动
+const PORT = process.env.PORT || 3100;
 app.listen(PORT, () => {
     console.log("Sequential Thinking MCP Server HTTP SSE MODE Started.....");
     console.log(`Sequential Thinking MCP Server running on SSE at http://localhost:${PORT}/sse`);
