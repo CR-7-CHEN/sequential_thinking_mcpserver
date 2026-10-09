@@ -34,3 +34,5 @@ Sequential Thinking 工具适用于以下情境：
     }
   }
 }
+
+<img width="1055" height="616" alt="image" src="https://github.com/user-attachments/assets/ac99f101-d782-4782-a37c-9cca77f6fc85" />
